@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/docker")
 public class hello {
-    @GetMapping("/hello")
+    @GetMapping("/hello2")
     public String hello()
     {
         return "docker is working ";
